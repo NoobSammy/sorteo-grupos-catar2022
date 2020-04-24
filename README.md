@@ -10,23 +10,23 @@ Utilizando JavaScript, ordena 32 selecciones, repartidas en 4 bombos, en 8 grupo
 - El anfitrión siempre se colocara en el lugar A1 del grupo A
 
 ### Capturas
-![grupos A, B, C, D]()
-![grupos E, F, G, H]()
+![grupos A, B, C, D](https://github.com/Noob-Sammy/sorteo-grupos-catar2022/blob/master/capturas/ejemploA-D.JPG)
+![grupos E, F, G, H](https://github.com/Noob-Sammy/sorteo-grupos-catar2022/blob/master/capturas/ejemploE-H.JPG)
 ___
 ## Selecciones
 Estas son las 32 selecciones que se tomaron en cuenta en el código.
 ### Anfitrión
-![Qatar]()
+![Qatar](https://github.com/Noob-Sammy/sorteo-grupos-catar2022/blob/master/capturas/anfitrion.JPG)
 ### UEFA
-![Europa]()
+![Europa](https://github.com/Noob-Sammy/sorteo-grupos-catar2022/blob/master/capturas/uefa.JPG)
 ### CONMEBOL
-![Sudamérica]()
+![Sudamérica](https://github.com/Noob-Sammy/sorteo-grupos-catar2022/blob/master/capturas/conmebol.JPG)
 ### CONCACAF
-![Norteamérica]()
+![Norteamérica](https://github.com/Noob-Sammy/sorteo-grupos-catar2022/blob/master/capturas/concacaf.JPG)
 ### CAF
-![África]()
+![África](https://github.com/Noob-Sammy/sorteo-grupos-catar2022/blob/master/capturas/caf.JPG)
 ### AFC
-![Asia]()
+![Asia](https://github.com/Noob-Sammy/sorteo-grupos-catar2022/blob/master/capturas/afc.JPG)
 ___
 ## Notas
 - Las selecciones fueron escogidas según CocaCola men's world ranking del 9 de abril del 2020
