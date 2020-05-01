@@ -2,16 +2,283 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Sorteo de grupos Catar 2022</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador | grupos Catar 2022</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
-  <body>
-    <script src="js/array_aleatorio.js"></script>
-    <script src="js/bombos.js"></script>
-    <script src="js/grupos.js"></script>
-    <script src="js/sortear_bombo1.js"></script>
-    <script src="js/sortear_bombo2.js"></script>
-    <script src="js/sortear_bombo3.js"></script>
-    <script src="js/sortear_bombo4.js"></script>
-    <script src="js/ordenar_grupos.js"></script>
+  <body class="container">
+    <header class="container my-5">
+      <div class="row">
+        <div class="col-12 col-md-3 col-lg-2">
+          <img src="img/logo.png" alt="qatar2022-logo" id="logo-principal" class="d-block mx-auto">
+        </div>
+        <div class="col-12 col-md-9 col-lg-10">
+            <h1 class="mb-0 mt-2 mt-md-4 mt-lg-5" id="titulo">Sorteo de grupos para Catar 2022</h1>
+        </div>
+        <div class="col-12">
+          <hr>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container mb-3">
+        <div class="row">
+          <table class="table table-sm table-borderless col-12 col-sm-6 col-lg-3" cellspacing="5">
+            <thead>
+              <tr>
+                <th>
+                  <h5 class="text-center my-1">Bombo 1</h5>
+                  <hr class="my-1">
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-sm table-borderless col-12 col-sm-6 col-lg-3" cellspacing="5">
+            <thead>
+              <tr>
+                <th>
+                  <h5 class="text-center my-1">Bombo 2</h5>
+                  <hr class="my-1">
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-sm table-borderless col-12 col-sm-6 col-lg-3" cellspacing="5">
+            <thead>
+              <tr>
+                <th>
+                  <h5 class="text-center my-1">Bombo 3</h5>
+                  <hr class="my-1">
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-sm table-borderless col-12 col-sm-6 col-lg-3" cellspacing="5">
+            <thead>
+              <tr>
+                <th>
+                  <h5 class="text-center my-1">Bombo 4</h5>
+                  <hr class="my-1">
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-0">
+                  <img alt="bandera" class="bandera-bombo">
+                  <span class="sele-nombre"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="container" id="nota">
+          <p class="font-weight-light">*Las selecciones fueron seleccionadas según <a href="https://es.fifa.com/fifa-world-ranking/ranking-table/men/#all">CocaCola men's world ranking</a> del 9 de abril del 2020</p>
+        </div>
+      </section>
+      <section class="container text-center my-4">
+        <a class="btn btn-primary btn-lg" id="boton">!Sortear¡</a>
+      </section>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
