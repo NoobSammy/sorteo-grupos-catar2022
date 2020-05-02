@@ -63,9 +63,11 @@ td::before{
 }
 .sele-nombre{
     font-size: 1rem;
+    letter-spacing: 1px;
 }
 #nota{
     font-size: 0.9rem;
+    letter-spacing: 0.5px;
 }
 #nota a{
     color: var(--mikado-yellow);
