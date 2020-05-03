@@ -55,7 +55,7 @@ td::before{
     right: 0;
     background-color: white;
 }
-.bandera-bombo{
+.bandera-bombo, .bandera-grupo{
     color: white;
     width: 50px;
     margin-right: 5px;
