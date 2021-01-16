@@ -1,5 +1,5 @@
 # Sorteo de grupos para Catar 2022
-Simulador de los resultados de un sorteo de grupos para la copa mundial de la FIFA
+[Simulador](https://noobsammy.github.io/sorteo-grupos-catar2022/) de los resultados de un sorteo de grupos para la próxima copa mundial de la FIFA
 ![grupos Rusia 2018](https://www.sinembargo.mx/wp-content/uploads/2017/12/dp-qnwtw0aiz4qc.jpg) 
 
 ## Qué genera
