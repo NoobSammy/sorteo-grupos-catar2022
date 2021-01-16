@@ -44,15 +44,3 @@ function ordenarSeleccionesEnSuGrupo() {
 }
 
 ordenarSeleccionesEnSuGrupo();
-
-let letra;
-
-grupos.forEach(function (grupo) {
-  letra = grupo.nombre;
-  console.log("GRUPO " + letra);
-  console.log(letra + "1 " + grupo.lugar1.pais);
-  console.log(letra + "2 " + grupo.lugar2.pais);
-  console.log(letra + "3 " + grupo.lugar3.pais);
-  console.log(letra + "4 " + grupo.lugar4.pais);
-  console.log("");
-});
