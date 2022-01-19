@@ -30,3 +30,4 @@ ___
 ## Notas
 - Las selecciones fueron escogidas según CocaCola men's world ranking del 9 de abril del 2020
 - El formato de del sorteo aún no se ha hecho oficial, el usado en este programa esta basado al usado el sorteo para Rusia 2018
+- Este proyecto cuenta con una versión mejorada: [Repositorio](https://github.com/JSamuelAP/sorteo-catar2022)
